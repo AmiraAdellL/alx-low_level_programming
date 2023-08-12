@@ -1,7 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* DEscription: A program to check if the number is positive or negative */
+/**
+ * main - Start
+ * Description: A program to check if the number is positive or negative
+ * Return: Success (0)
+ */
 int main(void)
 {
 	int n;
