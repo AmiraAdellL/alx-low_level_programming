@@ -1,12 +1,18 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * main - start
+ * Descritpion: a function that prints the alphabet, in lowercase
  *
- * Return: Always 0.
- */
-int main(void)
+ * Return: Always (0) Success
+*/
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char Letter;
+	for (Letter = 'a'; Letter <= 'z'; Letter++)
+	{
+		_putchar(Letter);
+	}
+
+	_putchar('\n');
 }
