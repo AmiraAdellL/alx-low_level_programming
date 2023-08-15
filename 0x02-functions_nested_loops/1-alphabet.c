@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * PrintAlphabet: Function that prints alphabet
+ * print_alphabet - Function that prints alphabet
  * Descritpion: a function that prints the alphabet, in lowercase
  *
  * Return: Always (0) Success
