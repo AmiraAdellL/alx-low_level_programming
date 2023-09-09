@@ -4,7 +4,7 @@
  * @n: An integer
  * Return: Success (1)
 */
-factorial(int n)
+int factorial(int n)
 {
 	if (n == 0)
 	{
