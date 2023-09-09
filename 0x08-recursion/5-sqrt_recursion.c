@@ -4,7 +4,7 @@
  * @n: integer
  * Return: Square root of n
 */
-int sqrt(int x, int y)
+int sqrtt(int x, int y)
 {
 	if (x * x == y)
 	{
@@ -14,9 +14,9 @@ int sqrt(int x, int y)
 	{
 		return (-1);
 	}
-	return (sqrt(x + 1, y));
+	return (sqrtt(x + 1, y));
 }
 int _sqrt_recursion(int n)
 {
-	return (sqrt(1, n));
+	return (sqrtt(1, n));
 }
